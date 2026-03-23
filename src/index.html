@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Booth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Photo Booth</h1>
+        <div class="camera-view">
+            <video id="camera" autoplay playsinline></video>
+            <canvas id="canvas" style="display: none;"></canvas>
+        </div>
+        <div class="controls">
+            <button id="capture-btn">Capture Photo</button>
+        </div>
+        <div id="status-message"></div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
